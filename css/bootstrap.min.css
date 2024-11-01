@@ -50,7 +50,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #000000;
-    background: linear-gradient(353deg, #ffffff, #001bffad);
+    background: linear-gradient(353deg, #ffffff, #ffffff);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -96,7 +96,7 @@ h1,
 
     h1,
     .h1 {
-        font-size: 2.5rem
+        font-size: 3.5rem
     }
 }
 
@@ -508,7 +508,7 @@ progress {
 
 @media(min-width: 1200px) {
     .display-2 {
-        font-size: 4.5rem
+        font-size: 2.5rem
     }
 }
 
@@ -532,7 +532,7 @@ progress {
 
 @media(min-width: 1200px) {
     .display-4 {
-        font-size: 3.5rem
+        font-size: 2.5rem
     }
 }
 
@@ -8266,6 +8266,10 @@ fieldset:disabled .btn {
     text-transform: uppercase !important
 }
 
+.logo {
+    color: #ff5c00;
+}
+
 .text-capitalize {
     text-transform: capitalize !important
 }
@@ -8284,7 +8288,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #001bff !important
+    color: #1d1c46 !important
 }
 
 .text-secondary {
@@ -8340,7 +8344,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #00d084 !important
+    background-color: #ff5c00 !important
 }
 
 .bg-secondary {
@@ -10060,6 +10064,10 @@ fieldset:disabled .btn {
 
     .text-md-end {
         text-align: right !important
+    }
+
+    .center {
+        text-align: center !important;
     }
 
     .text-md-center {

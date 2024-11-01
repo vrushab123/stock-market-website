@@ -69,7 +69,7 @@
 .btn.btn-primary {
     color: var(--bs-white);
     border: none;
-    background: #001bff;
+    background: #ff5c00;
 }
 
 .btn.btn-primary:hover {
@@ -293,7 +293,7 @@
     width: 60px;
     height: 60px;
     border-radius: 60px;
-    background: #001bff;
+    background: #ff5c00;
     color: var(--bs-white);
     font-size: 26px;
     display: flex;
@@ -472,7 +472,7 @@
 }
 
 .feature .feature-item .feature-icon {
-    background: var(--bs-white);
+    background: #ff5c00;
     border-radius: 10px;
     display: inline-block;
 }
